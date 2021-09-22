@@ -25,12 +25,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0;
-    transition: opacity .4s linear;
-}
-
-.active{
-    opacity: 1;
+  
 }
 
 .slide .inner{
@@ -40,43 +35,41 @@ body{
     background-color: rgba(0,0,0,.8);
     color: #eee;
     padding: 40px 30px;
-    opacity: 0;
 }
 
-.slide.active .inner{
-    opacity: 1;
-}
 
-.slide:nth-child(1){
-    background: url('./images/image1.jpg');
+
+.slide1{
+    background-image: url(./images/image1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.slide:nth-child(2){
-    background: url('./images/image2.jpg');
+
+.slide2{
+    background-image: url(./images/image2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.slide:nth-child(3){
-    background: url('./images/image3.jpg');
+.slide3{
+    background-image: url(./images/image3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.slide4{
+    background-image: url(./images/image4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.slide:nth-child(4){
-    background: url('./images/image4.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.slide:nth-child(5){
-    background: url('./images/image5.jpg');
+.slide5{
+    background-image: url(./images/image5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
